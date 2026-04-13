@@ -104,7 +104,7 @@ public class BugWorkflowTests
     public void Test_InvalidTransition_StartProgressWithoutAssign_ShouldThrowException()
     {
         var bug = new Bug("Test bug");
-        bug.StartProgress();
+        bug.StartProgress(); //1
     }
 
     [TestMethod]
